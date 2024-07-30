@@ -1,0 +1,17 @@
+[package]
+name = "rust-fun"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+arrow = "50.0.0"
+arrow-json = "50.0.0"
+arrow-schema = "50.0.0"
+datafusion = "36.0.0"
+log = "0.4.21"
+tokio = { version = "1.36.0", features = ["full"] }
+tracing = "0.1.40"
+tracing-appender = "0.2.3"
+tracing-subscriber = "0.3.18"
